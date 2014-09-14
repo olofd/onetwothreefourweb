@@ -1,0 +1,46 @@
+﻿<style>
+    input.ng-invalid.ng-dirty {
+        border-color: #900000;
+    }
+
+    input.ng-valid.ng-dirty {
+        border-color: #069000;
+    }
+</style>
+<div ng-show="!vm.mailsent">
+
+    <h2>Kontakta oss</h2>
+    <p>
+        Om du vill komma i kontakt med oss kan du skriva några rader här nedan. Detta skickas till
+        <a href="mailto:kontakt@onetwothreefour.se">kontakt@onetwothreefour.se</a>
+    </p>
+    <div>
+
+        <div class="g-wide--half g-medium--full" style="display:block;">
+            <form name="form" role="form">
+                <label for="name">Namn</label>
+                <input name="name" type="text" placeholder="ditt namn.." ng-model="vm.message.name" id="inputName" required />
+                <label for="name">Email</label>
+                <input name="email" placeholder="din email.." autocomplete="on" type="email" ng-model="vm.message.email" id="inputEmail" placeholder="E-mail" required />
+                <div ng-show="form.email.$dirty && form.email.$invalid">
+                    <span class="form-validation-error" ng-show="form.email.$error.email">Felaktig email!</span>
+                </div>
+                <label for="name">Fem gånger fem är? (spamskydd)</label>
+                <input type="number" placeholder="svaret på frågan i siffror" ng-model="vm.message.captcha" name="captcha" class="form-control" id="inputCaptach" min="25" max="25" required />
+                <div ng-show="form.captcha.$dirty && form.captcha.$invalid">
+                    <span class="form-validation-error" ng-show="form.captcha.$error.number">Fel svar!</span>
+                </div>
+                <label for="name">Meddelande</label>
+                <textarea name="message" ng-model="vm.message.message" class="form-control" rows="5" id="inputMessage" placeholder="ditt meddelande"></textarea>
+                <button ng-click="vm.submit()" ng-disabled="form.$invalid" type="submit" class="button--primary">Skicka</button>
+            </form>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+
+</div>
+
+<div ng-show="vm.mailsent">
+    <div style="display: block; width: 100%; margin-top:25px;">Tack för mailet! Vi hör av oss snart!</div>
+</div>

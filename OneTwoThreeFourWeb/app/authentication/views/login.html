@@ -1,0 +1,30 @@
+﻿<div class="container">
+            <div class="login-box">
+                <img src="/images/herrmanlogologin.png"/>
+                <h2>Login to your account</h2>
+                <form name="form" class="form-horizontal">
+                    <fieldset>
+
+                        <input type='text' auto-fillable-field ng-model="vm.userName" class="input-large col-xs-12" name="username" id="username" placeholder="type username" required>
+                        <div ng-show="form.username.$dirty && form.username.$invalid">
+                            <span style="color: #b22222;" ng-show="form.username.$error.required">Enter your username</span>
+                        </div>
+                        <input auto-fillable-field ng-model="vm.password" class="input-large col-xs-12" name="password" id="password" type="password" placeholder="type password" required>
+                        <div ng-show="form.password.$dirty && form.password.$invalid">
+                            <span style="color: #b22222;" ng-show="form.password.$error.required">Enter your password</span>
+                        </div>
+                        <div class="clearfix"></div>
+
+                        <label class="remember" for="remember"><input ng-model="vm.rememberMe" type="checkbox" id="remember">Remember me</label>
+
+                        <div class="clearfix"></div>
+                        <span>{{vm.errorDescription}}</span>
+                        <button ng-click="vm.login()" ng-disabled="form.$invalid" class="btn btn-primary col-xs-12">Login</button>
+                        <p style="font-size: 10px;">This app should work on the latest browsers. This app was however developed using Google Chrome. Download and install <a href="https://www.google.com/intl/en/chrome/browser/">Google Chrome here</a> for best experience.</p>
+                    </fieldset>
+
+                </form>
+                <hr>
+
+            </div>
+</div><!--/container-->

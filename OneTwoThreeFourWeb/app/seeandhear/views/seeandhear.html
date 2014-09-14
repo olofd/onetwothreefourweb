@@ -1,0 +1,145 @@
+﻿<h2>Video</h2>
+<style>
+    .video-container {
+        margin-top: 10px;
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+    }
+
+        .video-container iframe,
+        .video-container object,
+        .video-container embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+    .imagecontainer {
+        margin-top: 5px;
+    }
+</style>
+<!--<div class="galleria"></div>-->
+<h3>Hijazz - Uppsala - 2014-09-05</h3>
+
+<div class="video-container">
+    <iframe src="//www.youtube.com/embed/-GURAneWIb0?rel=0&vq=hd720&showinfo=0&hd=1" frameborder="0" width="1200" height="720"></iframe>
+</div>
+<div style="clear:both;"></div>
+
+
+
+<section class="styleguide__grid">
+    <h2 class="subsection-title"><strong class="subsection-number"></strong>Bilder</h2>
+    <div class="popup-gallery">
+
+        <div class="clear demo" style="margin-bottom:10px;">
+            <div>
+                <div class="g-medium--half g-wide--1 imagecontainer">
+                    <a href="/images/photos/1.jpg?width=1200">
+                        <img src="/images/photos/1.jpg?width=565" />
+                    </a>
+                </div>
+                <div class="g-medium--half g-medium--last g-wide--1 imagecontainer">
+                    <a href="/images/photos/2.jpg?width=1200">
+                        <img src="/images/photos/2.jpg?width=565" />
+                    </a>
+                </div>
+                <div class="g-medium--half g-wide--1 imagecontainer">
+                    <a href="/images/photos/3.jpg?width=1200">
+                        <img src="/images/photos/3.jpg?width=565" />
+                    </a>
+                </div>
+                <div class="g-medium--half g-medium--last g-wide--1 g-wide--last imagecontainer">
+                    <a href="/images/photos/4.jpg?width=1200">
+                        <img src="/images/photos/4.jpg?width=565" />
+                    </a>
+                </div>
+            </div><div class="clear"></div>
+        </div>
+        <div class="clear demo" style="margin-bottom:10px;">
+            <div>
+                <div class="g-medium--half g-wide--1 imagecontainer">
+                    <a href="/images/photos/5.jpg?width=1200">
+                        <img src="/images/photos/5.jpg?width=565" />
+                    </a>
+                </div>
+                <div class="g-medium--half g-medium--last g-wide--1 imagecontainer">
+                    <a href="/images/photos/6.jpg?width=1200">
+                        <img src="/images/photos/6.jpg?width=565" />
+                    </a>
+                </div>
+                <div class="g-medium--half g-wide--1 imagecontainer">
+                    <a href="/images/photos/7.jpg?width=1200">
+
+                        <img src="/images/photos/7.jpg?width=565" />
+                    </a>
+                </div>
+                <div class="g-medium--half g-medium--last g-wide--1 g-wide--last imagecontainer">
+                    <a href="/images/photos/8.jpg?width=1200">
+
+                        <img src="/images/photos/8.jpg?width=565" />
+                    </a>
+                </div>
+            </div><div class="clear"></div>
+        </div>
+        <div class="clear demo" style="margin-bottom:10px;">
+            <div>
+                <div class="g-medium--half g-wide--1 imagecontainer">
+                    <a href="/images/photos/9.jpg?width=1200">
+
+                        <img src="/images/photos/9.jpg?width=565" />
+                    </a>
+                </div>
+                <div class="g-medium--half g-medium--last g-wide--1 imagecontainer">
+                    <a href="/images/photos/10.jpg?width=1200">
+
+                        <img src="/images/photos/10.jpg?width=565" />
+                    </a>
+                </div>
+                <div class="g-medium--half g-wide--1 imagecontainer">
+                    <a href="/images/photos/11.jpg?width=1200">
+
+                        <img src="/images/photos/11.jpg?width=565" />
+                    </a>
+                </div>
+                <div class="g-medium--half g-medium--last g-wide--1 g-wide--last imagecontainer">
+                    <a href="/images/photos/12.jpg?width=1200">
+                        <img src="/images/photos/12.jpg?width=565" />
+                    </a>
+                </div>
+            </div><div class="clear"></div>
+        </div>
+
+    </div>
+
+
+
+</section>
+
+<script>
+    $(document).ready(function () {
+        $('.popup-gallery').magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            tLoading: 'Laddar bild',
+            mainClass: 'mfp-img-mobile',
+            gallery: {
+                enabled: true,
+                navigateByImgClick: true,
+                preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+            },
+            image: {
+                tError: '<a href="%url%">Bilden kunde int laddas #%curr%</a>',
+                //    titleSrc: function (item) {
+                //        return item.el.attr('title') + '<small>onetwothreefour.se</small>';
+                //    }
+                //}
+            }
+        });
+    });
+</script>

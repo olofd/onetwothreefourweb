@@ -1,0 +1,1354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\ODm\Desktop\OnePub</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include=".bowerrc">
+      <publishTime>09/08/2014 21:07:51</publishTime>
+    </File>
+    <File Include=".editorconfig">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include=".gitattributes">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include=".gitignore">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include=".jscsrc">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include=".jshintrc">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include=".travis.yml">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="app/app.js">
+      <publishTime>09/13/2014 19:36:54</publishTime>
+    </File>
+    <File Include="app/authentication/authentication.rar">
+      <publishTime>09/08/2014 21:03:49</publishTime>
+    </File>
+    <File Include="app/authentication/config.js">
+      <publishTime>09/14/2014 14:06:30</publishTime>
+    </File>
+    <File Include="app/authentication/config.js.map">
+      <publishTime>09/14/2014 14:06:30</publishTime>
+    </File>
+    <File Include="app/authentication/controllers/loginController.js">
+      <publishTime>09/08/2014 21:24:08</publishTime>
+    </File>
+    <File Include="app/authentication/directives/authentication.js">
+      <publishTime>09/08/2014 21:25:14</publishTime>
+    </File>
+    <File Include="app/authentication/directives/autofillerchecker.js">
+      <publishTime>09/08/2014 21:03:49</publishTime>
+    </File>
+    <File Include="app/authentication/directives/pwCheck.js">
+      <publishTime>09/08/2014 21:03:49</publishTime>
+    </File>
+    <File Include="app/authentication/models/UserModel.js">
+      <publishTime>09/14/2014 14:06:30</publishTime>
+    </File>
+    <File Include="app/authentication/models/UserModel.js.map">
+      <publishTime>09/14/2014 14:06:30</publishTime>
+    </File>
+    <File Include="app/authentication/services/authService.js">
+      <publishTime>09/14/2014 14:06:30</publishTime>
+    </File>
+    <File Include="app/authentication/services/authService.js.map">
+      <publishTime>09/14/2014 14:06:30</publishTime>
+    </File>
+    <File Include="app/authentication/views/login.html">
+      <publishTime>09/08/2014 21:03:49</publishTime>
+    </File>
+    <File Include="app/contact/controllers/contactctrl.js">
+      <publishTime>09/14/2014 14:06:30</publishTime>
+    </File>
+    <File Include="app/contact/controllers/contactctrl.js.map">
+      <publishTime>09/14/2014 14:06:30</publishTime>
+    </File>
+    <File Include="app/contact/views/contact.html">
+      <publishTime>09/14/2014 13:51:23</publishTime>
+    </File>
+    <File Include="app/seeandhear/controllers/seeandhearctrl.js">
+      <publishTime>09/08/2014 13:02:37</publishTime>
+    </File>
+    <File Include="app/seeandhear/views/seeandhear.html">
+      <publishTime>09/14/2014 12:22:20</publishTime>
+    </File>
+    <File Include="app/start/controllers/startctrl.js">
+      <publishTime>09/08/2014 13:00:19</publishTime>
+    </File>
+    <File Include="app/start/views/start.html">
+      <publishTime>09/14/2014 12:36:13</publishTime>
+    </File>
+    <File Include="apple-touch-icon-precomposed.png">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="basic.html">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/08/2014 15:29:41</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>09/08/2014 15:29:44</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>09/08/2014 15:29:44</publishTime>
+    </File>
+    <File Include="bin/ImageResizer.dll">
+      <publishTime>09/13/2014 18:54:33</publishTime>
+    </File>
+    <File Include="bin/ImageResizer.Mvc.dll">
+      <publishTime>09/13/2014 18:55:09</publishTime>
+    </File>
+    <File Include="bin/ImageResizer.Plugins.DiskCache.dll">
+      <publishTime>09/13/2014 18:55:14</publishTime>
+    </File>
+    <File Include="bin/ImageResizer.Plugins.PrettyGifs.dll">
+      <publishTime>09/13/2014 18:55:20</publishTime>
+    </File>
+    <File Include="bin/ImageResizer.Plugins.SimpleFilters.dll">
+      <publishTime>09/13/2014 18:55:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>09/08/2014 15:29:47</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>09/08/2014 15:29:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>09/08/2014 15:29:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>09/08/2014 15:29:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>09/08/2014 15:29:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>09/08/2014 15:29:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>09/08/2014 15:29:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
+      <publishTime>09/08/2014 15:29:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Google.dll">
+      <publishTime>09/08/2014 15:29:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
+      <publishTime>09/08/2014 15:29:49</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>09/08/2014 15:29:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
+      <publishTime>09/08/2014 15:29:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>09/08/2014 15:29:40</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>09/08/2014 15:29:42</publishTime>
+    </File>
+    <File Include="bin/OneTwoThreeFourWeb.dll">
+      <publishTime>09/14/2014 14:07:03</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>09/08/2014 15:29:48</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>09/08/2014 15:29:43</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>09/08/2014 15:29:40</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>09/08/2014 15:29:43</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>09/08/2014 15:29:43</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>09/08/2014 15:29:41</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>09/08/2014 15:29:40</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>09/08/2014 15:29:40</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>09/08/2014 15:29:40</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>09/08/2014 15:29:40</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>09/08/2014 15:29:40</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>09/08/2014 15:29:41</publishTime>
+    </File>
+    <File Include="bower.json">
+      <publishTime>09/08/2014 21:13:06</publishTime>
+    </File>
+    <File Include="bower_components/angular-cookies/.bower.json">
+      <publishTime>09/08/2014 21:13:06</publishTime>
+    </File>
+    <File Include="bower_components/angular-cookies/angular-cookies.js">
+      <publishTime>09/08/2014 21:13:06</publishTime>
+    </File>
+    <File Include="bower_components/angular-cookies/angular-cookies.min.js">
+      <publishTime>09/08/2014 21:13:06</publishTime>
+    </File>
+    <File Include="bower_components/angular-cookies/angular-cookies.min.js.map">
+      <publishTime>09/08/2014 21:13:06</publishTime>
+    </File>
+    <File Include="bower_components/angular-cookies/bower.json">
+      <publishTime>09/08/2014 21:13:06</publishTime>
+    </File>
+    <File Include="bower_components/angular-cookies/README.md">
+      <publishTime>09/08/2014 21:13:06</publishTime>
+    </File>
+    <File Include="bower_components/angular-http-auth/.bower.json">
+      <publishTime>09/08/2014 21:08:37</publishTime>
+    </File>
+    <File Include="bower_components/angular-http-auth/.gitignore">
+      <publishTime>09/08/2014 21:08:37</publishTime>
+    </File>
+    <File Include="bower_components/angular-http-auth/bower.json">
+      <publishTime>09/08/2014 21:08:37</publishTime>
+    </File>
+    <File Include="bower_components/angular-http-auth/LICENSE">
+      <publishTime>09/08/2014 21:08:37</publishTime>
+    </File>
+    <File Include="bower_components/angular-http-auth/README.md">
+      <publishTime>09/08/2014 21:08:37</publishTime>
+    </File>
+    <File Include="bower_components/angular-http-auth/src/http-auth-interceptor.js">
+      <publishTime>09/08/2014 21:08:37</publishTime>
+    </File>
+    <File Include="bower_components/angular-loading-bar/.bower.json">
+      <publishTime>09/08/2014 21:07:58</publishTime>
+    </File>
+    <File Include="bower_components/angular-loading-bar/bower.json">
+      <publishTime>09/08/2014 21:07:58</publishTime>
+    </File>
+    <File Include="bower_components/angular-loading-bar/build/loading-bar.css">
+      <publishTime>09/08/2014 21:07:58</publishTime>
+    </File>
+    <File Include="bower_components/angular-loading-bar/build/loading-bar.js">
+      <publishTime>09/08/2014 21:07:58</publishTime>
+    </File>
+    <File Include="bower_components/angular-loading-bar/build/loading-bar.min.css">
+      <publishTime>09/08/2014 21:07:58</publishTime>
+    </File>
+    <File Include="bower_components/angular-loading-bar/build/loading-bar.min.js">
+      <publishTime>09/08/2014 21:07:58</publishTime>
+    </File>
+    <File Include="bower_components/angular-loading-bar/CHANGELOG.md">
+      <publishTime>09/08/2014 21:07:58</publishTime>
+    </File>
+    <File Include="bower_components/angular-loading-bar/Gruntfile.js">
+      <publishTime>09/08/2014 21:07:58</publishTime>
+    </File>
+    <File Include="bower_components/angular-loading-bar/LICENSE">
+      <publishTime>09/08/2014 21:07:58</publishTime>
+    </File>
+    <File Include="bower_components/angular-loading-bar/package.json">
+      <publishTime>09/08/2014 21:07:58</publishTime>
+    </File>
+    <File Include="bower_components/angular-loading-bar/README.md">
+      <publishTime>09/08/2014 21:07:58</publishTime>
+    </File>
+    <File Include="bower_components/angular-loading-bar/src/loading-bar.css">
+      <publishTime>09/08/2014 21:07:58</publishTime>
+    </File>
+    <File Include="bower_components/angular-loading-bar/src/loading-bar.js">
+      <publishTime>09/08/2014 21:07:58</publishTime>
+    </File>
+    <File Include="bower_components/angular-route/.bower.json">
+      <publishTime>09/08/2014 11:53:05</publishTime>
+    </File>
+    <File Include="bower_components/angular-route/angular-route.js">
+      <publishTime>09/08/2014 11:53:05</publishTime>
+    </File>
+    <File Include="bower_components/angular-route/angular-route.min.js">
+      <publishTime>09/08/2014 11:53:05</publishTime>
+    </File>
+    <File Include="bower_components/angular-route/angular-route.min.js.map">
+      <publishTime>09/08/2014 11:53:05</publishTime>
+    </File>
+    <File Include="bower_components/angular-route/bower.json">
+      <publishTime>09/08/2014 11:53:05</publishTime>
+    </File>
+    <File Include="bower_components/angular-route/README.md">
+      <publishTime>09/08/2014 11:53:05</publishTime>
+    </File>
+    <File Include="bower_components/angular/.bower.json">
+      <publishTime>09/08/2014 10:06:49</publishTime>
+    </File>
+    <File Include="bower_components/angular/angular-csp.css">
+      <publishTime>09/08/2014 10:06:48</publishTime>
+    </File>
+    <File Include="bower_components/angular/angular.js">
+      <publishTime>09/08/2014 10:06:49</publishTime>
+    </File>
+    <File Include="bower_components/angular/angular.min.js">
+      <publishTime>09/08/2014 10:06:49</publishTime>
+    </File>
+    <File Include="bower_components/angular/angular.min.js.gzip">
+      <publishTime>09/08/2014 10:06:49</publishTime>
+    </File>
+    <File Include="bower_components/angular/angular.min.js.map">
+      <publishTime>09/08/2014 10:06:49</publishTime>
+    </File>
+    <File Include="bower_components/angular/bower.json">
+      <publishTime>09/08/2014 10:06:49</publishTime>
+    </File>
+    <File Include="bower_components/angular/README.md">
+      <publishTime>09/08/2014 10:06:48</publishTime>
+    </File>
+    <File Include="bower_components/fastclick/.bower.json">
+      <publishTime>09/07/2014 15:05:43</publishTime>
+    </File>
+    <File Include="bower_components/fastclick/bower.json">
+      <publishTime>09/07/2014 15:05:43</publishTime>
+    </File>
+    <File Include="bower_components/fastclick/lib/fastclick.js">
+      <publishTime>09/07/2014 15:05:43</publishTime>
+    </File>
+    <File Include="bower_components/fastclick/LICENSE">
+      <publishTime>09/07/2014 15:05:43</publishTime>
+    </File>
+    <File Include="bower_components/fastclick/README.md">
+      <publishTime>09/07/2014 15:05:43</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/.bower.json">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/.gitignore">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/.npmignore">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/bower.json">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/css/font-awesome.css">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/css/font-awesome.min.css">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/fonts/fontawesome-webfont.eot">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/fonts/fontawesome-webfont.svg">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/fonts/fontawesome-webfont.woff">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/fonts/FontAwesome.otf">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/less/bordered-pulled.less">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/less/core.less">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/less/extras.less">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/less/fixed-width.less">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/less/font-awesome.less">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/less/icons.less">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/less/larger.less">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/less/list.less">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/less/mixins.less">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/less/path.less">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/less/rotated-flipped.less">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/less/spinning.less">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/less/stacked.less">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/less/variables.less">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/scss/font-awesome.scss">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/scss/_bordered-pulled.scss">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/scss/_core.scss">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/scss/_extras.scss">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/scss/_fixed-width.scss">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/scss/_icons.scss">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/scss/_larger.scss">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/scss/_list.scss">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/scss/_mixins.scss">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/scss/_path.scss">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/scss/_rotated-flipped.scss">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/scss/_spinning.scss">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/scss/_stacked.scss">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/fontawesome/scss/_variables.scss">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="bower_components/jquery/.bower.json">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/bower.json">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/dist/jquery.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/dist/jquery.min.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/dist/jquery.min.map">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/MIT-LICENSE.txt">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/ajax.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/ajax/jsonp.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/ajax/load.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/ajax/parseJSON.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/ajax/parseXML.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/ajax/script.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/ajax/var/nonce.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/ajax/var/rquery.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/ajax/xhr.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/attributes.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/attributes/attr.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/attributes/classes.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/attributes/prop.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/attributes/support.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/attributes/val.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/callbacks.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/core.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/core/access.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/core/init.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/core/parseHTML.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/core/ready.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/core/var/rsingleTag.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/css.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/css/addGetHookIf.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/css/curCSS.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/css/defaultDisplay.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/css/hiddenVisibleSelectors.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/css/support.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/css/swap.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/css/var/cssExpand.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/css/var/getStyles.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/css/var/isHidden.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/css/var/rmargin.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/css/var/rnumnonpx.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/data.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/data/accepts.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/data/Data.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/data/var/data_priv.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/data/var/data_user.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/deferred.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/deprecated.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/dimensions.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/effects.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/effects/animatedSelector.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/effects/Tween.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/event.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/event/alias.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/event/support.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/exports/amd.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/exports/global.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/intro.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/jquery.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/manipulation.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/manipulation/support.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/manipulation/var/rcheckableType.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/manipulation/_evalUrl.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/offset.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/outro.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/queue.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/queue/delay.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/selector-native.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/selector-sizzle.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/selector.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/serialize.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/sizzle/dist/sizzle.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/sizzle/dist/sizzle.min.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/sizzle/dist/sizzle.min.map">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/traversing.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/traversing/findFilter.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/traversing/var/rneedsContext.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/var/arr.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/var/class2type.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/var/concat.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/var/hasOwn.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/var/indexOf.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/var/pnum.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/var/push.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/var/rnotwhite.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/var/slice.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/var/strundefined.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/var/support.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/var/toString.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/wrap.js">
+      <publishTime>09/08/2014 14:54:55</publishTime>
+    </File>
+    <File Include="bower_components/magnific-popup/.bower.json">
+      <publishTime>09/13/2014 19:34:24</publishTime>
+    </File>
+    <File Include="bower_components/magnific-popup/.gitignore">
+      <publishTime>09/13/2014 19:34:24</publishTime>
+    </File>
+    <File Include="bower_components/magnific-popup/.jshintrc">
+      <publishTime>09/13/2014 19:34:24</publishTime>
+    </File>
+    <File Include="bower_components/magnific-popup/.travis.yml">
+      <publishTime>09/13/2014 19:34:24</publishTime>
+    </File>
+    <File Include="bower_components/magnific-popup/bower.json">
+      <publishTime>09/13/2014 19:34:24</publishTime>
+    </File>
+    <File Include="bower_components/magnific-popup/dist/jquery.magnific-popup.js">
+      <publishTime>09/13/2014 19:34:24</publishTime>
+    </File>
+    <File Include="bower_components/magnific-popup/dist/jquery.magnific-popup.min.js">
+      <publishTime>09/13/2014 19:34:24</publishTime>
+    </File>
+    <File Include="bower_components/magnific-popup/dist/magnific-popup.css">
+      <publishTime>09/13/2014 19:34:24</publishTime>
+    </File>
+    <File Include="bower_components/magnific-popup/Gruntfile.js">
+      <publishTime>09/13/2014 19:34:24</publishTime>
+    </File>
+    <File Include="bower_components/magnific-popup/magnific-popup.jquery.json">
+      <publishTime>09/13/2014 19:34:24</publishTime>
+    </File>
+    <File Include="bower_components/magnific-popup/package.json">
+      <publishTime>09/13/2014 19:34:24</publishTime>
+    </File>
+    <File Include="bower_components/magnific-popup/README.md">
+      <publishTime>09/13/2014 19:34:24</publishTime>
+    </File>
+    <File Include="bower_components/magnific-popup/src/css/main.scss">
+      <publishTime>09/13/2014 19:34:24</publishTime>
+    </File>
+    <File Include="bower_components/magnific-popup/src/css/_settings.scss">
+      <publishTime>09/13/2014 19:34:24</publishTime>
+    </File>
+    <File Include="bower_components/magnific-popup/src/js/ajax.js">
+      <publishTime>09/13/2014 19:34:24</publishTime>
+    </File>
+    <File Include="bower_components/magnific-popup/src/js/core.js">
+      <publishTime>09/13/2014 19:34:24</publishTime>
+    </File>
+    <File Include="bower_components/magnific-popup/src/js/fastclick.js">
+      <publishTime>09/13/2014 19:34:24</publishTime>
+    </File>
+    <File Include="bower_components/magnific-popup/src/js/gallery.js">
+      <publishTime>09/13/2014 19:34:24</publishTime>
+    </File>
+    <File Include="bower_components/magnific-popup/src/js/iframe.js">
+      <publishTime>09/13/2014 19:34:24</publishTime>
+    </File>
+    <File Include="bower_components/magnific-popup/src/js/image.js">
+      <publishTime>09/13/2014 19:34:24</publishTime>
+    </File>
+    <File Include="bower_components/magnific-popup/src/js/inline.js">
+      <publishTime>09/13/2014 19:34:24</publishTime>
+    </File>
+    <File Include="bower_components/magnific-popup/src/js/retina.js">
+      <publishTime>09/13/2014 19:34:24</publishTime>
+    </File>
+    <File Include="bower_components/magnific-popup/src/js/zoom.js">
+      <publishTime>09/13/2014 19:34:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>09/08/2014 15:29:37</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>09/08/2014 15:29:37</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>09/08/2014 15:29:30</publishTime>
+    </File>
+    <File Include="docs/commands.md">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="docs/install.md">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>09/14/2014 14:05:46</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/.bower.json">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/.gitignore">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/.npmignore">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/bower.json">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/css/font-awesome.css">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/css/font-awesome.min.css">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/fonts/fontawesome-webfont.eot">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/fonts/fontawesome-webfont.svg">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/fonts/fontawesome-webfont.woff">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/fonts/FontAwesome.otf">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/less/bordered-pulled.less">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/less/core.less">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/less/extras.less">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/less/fixed-width.less">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/less/font-awesome.less">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/less/icons.less">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/less/larger.less">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/less/list.less">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/less/mixins.less">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/less/path.less">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/less/rotated-flipped.less">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/less/spinning.less">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/less/stacked.less">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/less/variables.less">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/scss/font-awesome.scss">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/scss/_bordered-pulled.scss">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/scss/_core.scss">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/scss/_extras.scss">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/scss/_fixed-width.scss">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/scss/_icons.scss">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/scss/_larger.scss">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/scss/_list.scss">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/scss/_mixins.scss">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/scss/_path.scss">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/scss/_rotated-flipped.scss">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/scss/_spinning.scss">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/scss/_stacked.scss">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome/scss/_variables.scss">
+      <publishTime>09/07/2014 14:40:45</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>09/08/2014 15:29:37</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>09/08/2014 15:29:37</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>09/08/2014 15:29:37</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>09/08/2014 15:29:37</publishTime>
+    </File>
+    <File Include="fonts/RobotoCondensed-Bold.eot">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="fonts/RobotoCondensed-Bold.ttf">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="fonts/RobotoCondensed-Bold.woff">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="fonts/RobotoCondensed-BoldItalic.eot">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="fonts/RobotoCondensed-BoldItalic.ttf">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="fonts/RobotoCondensed-BoldItalic.woff">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="fonts/RobotoCondensed-Italic.eot">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="fonts/RobotoCondensed-Italic.ttf">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="fonts/RobotoCondensed-Italic.woff">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="fonts/RobotoCondensed-Light.eot">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="fonts/RobotoCondensed-Light.ttf">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="fonts/RobotoCondensed-Light.woff">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="fonts/RobotoCondensed-LightItalic.eot">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="fonts/RobotoCondensed-LightItalic.ttf">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="fonts/RobotoCondensed-LightItalic.woff">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="fonts/RobotoCondensed-Regular.eot">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="fonts/RobotoCondensed-Regular.ttf">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="fonts/RobotoCondensed-Regular.woff">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>09/08/2014 15:29:30</publishTime>
+    </File>
+    <File Include="Gruntfile.js">
+      <publishTime>09/08/2014 16:30:04</publishTime>
+    </File>
+    <File Include="humans.txt">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="images/back.jpg">
+      <publishTime>09/07/2014 12:03:22</publishTime>
+    </File>
+    <File Include="images/E-Mail-Icon.png">
+      <publishTime>09/07/2014 12:39:04</publishTime>
+    </File>
+    <File Include="images/fb_icon_325x325.png">
+      <publishTime>09/07/2014 12:35:08</publishTime>
+    </File>
+    <File Include="images/hamburger.svg">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="images/icons/icons-hinted.ttf">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="images/icons/icons.eot">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="images/icons/icons.svg">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="images/icons/icons.ttf">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="images/icons/icons.woff">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="images/icons/icons.woff2">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="images/icons/placeholder--medium.png">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="images/icons/placeholder--small.png">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="images/icons/placeholder--wide.png">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="images/IMG_0227.psd">
+      <publishTime>09/07/2014 16:09:48</publishTime>
+    </File>
+    <File Include="images/photos/1.jpg">
+      <publishTime>09/13/2014 18:00:08</publishTime>
+    </File>
+    <File Include="images/photos/10.jpg">
+      <publishTime>09/13/2014 18:04:36</publishTime>
+    </File>
+    <File Include="images/photos/11.jpg">
+      <publishTime>09/13/2014 18:05:02</publishTime>
+    </File>
+    <File Include="images/photos/12.jpg">
+      <publishTime>09/13/2014 18:05:30</publishTime>
+    </File>
+    <File Include="images/photos/13.jpg">
+      <publishTime>09/13/2014 18:06:00</publishTime>
+    </File>
+    <File Include="images/photos/14.jpg">
+      <publishTime>09/13/2014 18:06:28</publishTime>
+    </File>
+    <File Include="images/photos/15.jpg">
+      <publishTime>09/13/2014 18:06:46</publishTime>
+    </File>
+    <File Include="images/photos/16.jpg">
+      <publishTime>09/13/2014 18:07:03</publishTime>
+    </File>
+    <File Include="images/photos/2.jpg">
+      <publishTime>09/13/2014 18:00:27</publishTime>
+    </File>
+    <File Include="images/photos/3.jpg">
+      <publishTime>09/13/2014 18:00:43</publishTime>
+    </File>
+    <File Include="images/photos/4.jpg">
+      <publishTime>09/13/2014 18:01:00</publishTime>
+    </File>
+    <File Include="images/photos/5.jpg">
+      <publishTime>09/13/2014 18:01:17</publishTime>
+    </File>
+    <File Include="images/photos/6.jpg">
+      <publishTime>09/13/2014 18:01:34</publishTime>
+    </File>
+    <File Include="images/photos/7.jpg">
+      <publishTime>09/13/2014 18:01:52</publishTime>
+    </File>
+    <File Include="images/photos/8.jpg">
+      <publishTime>09/13/2014 18:02:35</publishTime>
+    </File>
+    <File Include="images/photos/9.jpg">
+      <publishTime>09/13/2014 18:02:55</publishTime>
+    </File>
+    <File Include="images/touch/chrome-touch-icon-192x192.png">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="images/touch/icon-128x128.png">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="images/touch/ms-touch-icon-144x144-precomposed.png">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>09/14/2014 12:44:31</publishTime>
+    </File>
+    <File Include="karma-e2e.conf.js">
+      <publishTime>09/08/2014 16:30:40</publishTime>
+    </File>
+    <File Include="karma.conf.js">
+      <publishTime>09/08/2014 16:30:40</publishTime>
+    </File>
+    <File Include="package.json">
+      <publishTime>09/08/2014 16:30:42</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/13/2014 18:55:27</publishTime>
+    </File>
+    <File Include="styles/components.css">
+      <publishTime>09/13/2014 19:18:36</publishTime>
+    </File>
+    <File Include="styles/components/components.css">
+      <publishTime>09/13/2014 19:26:37</publishTime>
+    </File>
+    <File Include="styles/components/components.css.map">
+      <publishTime>09/13/2014 19:26:37</publishTime>
+    </File>
+    <File Include="styles/components/components.min.css">
+      <publishTime>09/13/2014 19:26:07</publishTime>
+    </File>
+    <File Include="styles/components/components.scss">
+      <publishTime>09/08/2014 14:33:11</publishTime>
+    </File>
+    <File Include="styles/components/_components/_articles-list.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_components/_breadcrumb.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_components/_button.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_components/_column-list.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_components/_grid.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_components/_guides-list.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_components/_icon-circle.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_components/_icons.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_components/_link.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_components/_list.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_components/_media.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_components/_subsection-title.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_components/_table.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_components/_typography.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_global.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_helper.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_modules/_article-nav.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_modules/_articles-section.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_modules/_did-you-know.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_modules/_editorial-header.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_modules/_featured-section.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_modules/_featured-spotlight.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_modules/_guides-section.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_modules/_highlight.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_modules/_in-this-guide.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_modules/_next-lessons.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_modules/_page-header.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_modules/_quote.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_modules/_related-guides.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_modules/_related-items.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_modules/_summary-header.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_modules/_toc.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_normalize.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_pages/_page-resources.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_pages/_styleguide.scss">
+      <publishTime>09/13/2014 19:26:37</publishTime>
+    </File>
+    <File Include="styles/components/_palette.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_themed.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/components/_utils.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="styles/main.css">
+      <publishTime>09/13/2014 19:26:37</publishTime>
+    </File>
+    <File Include="styles/main.css.map">
+      <publishTime>09/13/2014 19:26:37</publishTime>
+    </File>
+    <File Include="styles/main.min.css">
+      <publishTime>09/13/2014 19:26:07</publishTime>
+    </File>
+    <File Include="styles/main.scss">
+      <publishTime>09/08/2014 15:21:39</publishTime>
+    </File>
+    <File Include="styles/_h5bp.scss">
+      <publishTime>09/04/2014 09:44:30</publishTime>
+    </File>
+    <File Include="Views/Account/ConfirmEmail.cshtml">
+      <publishTime>09/08/2014 15:29:44</publishTime>
+    </File>
+    <File Include="Views/Account/ExternalLoginConfirmation.cshtml">
+      <publishTime>09/08/2014 15:29:44</publishTime>
+    </File>
+    <File Include="Views/Account/ExternalLoginFailure.cshtml">
+      <publishTime>09/08/2014 15:29:44</publishTime>
+    </File>
+    <File Include="Views/Account/ForgotPassword.cshtml">
+      <publishTime>09/08/2014 15:29:44</publishTime>
+    </File>
+    <File Include="Views/Account/ForgotPasswordConfirmation.cshtml">
+      <publishTime>09/08/2014 15:29:44</publishTime>
+    </File>
+    <File Include="Views/Account/Login.cshtml">
+      <publishTime>09/08/2014 15:29:44</publishTime>
+    </File>
+    <File Include="Views/Account/Register.cshtml">
+      <publishTime>09/08/2014 15:29:44</publishTime>
+    </File>
+    <File Include="Views/Account/ResetPassword.cshtml">
+      <publishTime>09/08/2014 15:29:44</publishTime>
+    </File>
+    <File Include="Views/Account/ResetPasswordConfirmation.cshtml">
+      <publishTime>09/08/2014 15:29:44</publishTime>
+    </File>
+    <File Include="Views/Account/SendCode.cshtml">
+      <publishTime>09/08/2014 15:29:44</publishTime>
+    </File>
+    <File Include="Views/Account/VerifyCode.cshtml">
+      <publishTime>09/08/2014 15:29:44</publishTime>
+    </File>
+    <File Include="Views/Account/_ChangePasswordPartial.cshtml">
+      <publishTime>09/08/2014 15:29:43</publishTime>
+    </File>
+    <File Include="Views/Account/_ExternalLoginsListPartial.cshtml">
+      <publishTime>09/08/2014 15:29:43</publishTime>
+    </File>
+    <File Include="Views/Account/_RemoveAccountPartial.cshtml">
+      <publishTime>09/08/2014 15:29:43</publishTime>
+    </File>
+    <File Include="Views/Account/_SetPasswordPartial.cshtml">
+      <publishTime>09/08/2014 15:29:44</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>09/08/2014 15:29:30</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>09/08/2014 15:29:30</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>09/08/2014 15:29:30</publishTime>
+    </File>
+    <File Include="Views/Manage/AddPhoneNumber.cshtml">
+      <publishTime>09/08/2014 15:29:44</publishTime>
+    </File>
+    <File Include="Views/Manage/ChangePassword.cshtml">
+      <publishTime>09/08/2014 15:29:44</publishTime>
+    </File>
+    <File Include="Views/Manage/Index.cshtml">
+      <publishTime>09/08/2014 15:29:44</publishTime>
+    </File>
+    <File Include="Views/Manage/ManageLogins.cshtml">
+      <publishTime>09/08/2014 15:29:44</publishTime>
+    </File>
+    <File Include="Views/Manage/SetPassword.cshtml">
+      <publishTime>09/08/2014 15:29:44</publishTime>
+    </File>
+    <File Include="Views/Manage/VerifyPhoneNumber.cshtml">
+      <publishTime>09/08/2014 15:29:44</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>09/08/2014 15:29:43</publishTime>
+    </File>
+    <File Include="Views/Shared/Lockout.cshtml">
+      <publishTime>09/08/2014 15:29:44</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>09/08/2014 15:29:43</publishTime>
+    </File>
+    <File Include="Views/Shared/_LoginPartial.cshtml">
+      <publishTime>09/08/2014 15:29:44</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>09/08/2014 15:29:30</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>09/08/2014 15:29:30</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/13/2014 19:58:29</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
