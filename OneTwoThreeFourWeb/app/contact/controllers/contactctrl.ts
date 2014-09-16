@@ -1,14 +1,14 @@
 ﻿module app {
 
     export class ContactCtrl {
-        static $inject = ['$scope', '$http', '$timeout'];
+        static $inject = ['$scope', '$http', '$timeout', '$rootScope'];
         message: any;
         mailsent : boolean;
-        constructor(private $scope, private $http: ng.IHttpService, $timeout) {
+        constructor(private $scope, private $http: ng.IHttpService, $timeout, $rootScope) {
             $scope.vm = this;
             this.message = {};
             this.mailsent = false;
-
+            $rootScope.title = "Kontakta oss";
         }
 
         submit() {

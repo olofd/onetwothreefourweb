@@ -68,3 +68,4 @@ C:\Proj\OneTwoThreeFourWeb\OneTwoThreeFourWeb\bin\Microsoft.Owin.Security.Twitte
 C:\Proj\OneTwoThreeFourWeb\OneTwoThreeFourWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Proj\OneTwoThreeFourWeb\OneTwoThreeFourWeb\obj\Release\OneTwoThreeFourWeb.dll
 C:\Proj\OneTwoThreeFourWeb\OneTwoThreeFourWeb\obj\Release\OneTwoThreeFourWeb.pdb
+C:\Proj\OneTwoThreeFourWeb\OneTwoThreeFourWeb\obj\Release\OneTwoThreeFourWeb.csprojResolveAssemblyReference.cache

@@ -1,12 +1,13 @@
 ﻿var app;
 (function (app) {
     var ContactCtrl = (function () {
-        function ContactCtrl($scope, $http, $timeout) {
+        function ContactCtrl($scope, $http, $timeout, $rootScope) {
             this.$scope = $scope;
             this.$http = $http;
             $scope.vm = this;
             this.message = {};
             this.mailsent = false;
+            $rootScope.title = "Kontakta oss";
         }
         ContactCtrl.prototype.submit = function () {
             var _this = this;
@@ -17,7 +18,7 @@
                 _this.mailsent = false;
             });
         };
-        ContactCtrl.$inject = ['$scope', '$http', '$timeout'];
+        ContactCtrl.$inject = ['$scope', '$http', '$timeout', '$rootScope'];
         return ContactCtrl;
     })();
     app.ContactCtrl = ContactCtrl;

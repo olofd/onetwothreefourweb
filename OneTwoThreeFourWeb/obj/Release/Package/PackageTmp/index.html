@@ -1,30 +1,35 @@
 ﻿<!doctype html>
-<html lang="" ng-app="app">
+<html prefix="og: http://ogp.me/ns#" lang="" ng-app="app">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Vi är ett band som kommer och förgyller din fest med dansvänlig musik.">
+    <meta name="description" content="Bandet som förgyller din fest med svängig musik!">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>One two three four</title>
+    <title>One Two Three Four - {{title}}</title>
+    <meta name="keywords" content="onetwothreefour, coverband, bröllopsmusik, band till fest, livemusik, företagsevent, olof dahlbom, kristin carpenter, magnus ericsson, anton waltari, per kronwall">
+    <meta name="robots" content="index,follow,all" />
+    <meta name="fragment" content="!">
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
     <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+    <meta name="apple-mobile-web-app-title" content="One Two Three Four">
     <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
     <!-- Tile icon for Win8 (144x144 + tile color) -->
     <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
-    <meta name="msapplication-TileColor" content="#3372DF">
-    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
-    <!--
-    <link rel="canonical" href="http://www.example.com/">
-    -->
-    <!-- Page styles -->
+    <meta name="msapplication-TileColor" content="#001C58">
+    <link rel="canonical" href="http://www.onetwothreefour.se/" />
+    <meta property="og:locale" content="sv_SE" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="One Two Three Four - Live-musik till din fest!" />
+    <meta property="og:description" content="Vi är ett band som kommer och förgyller din fest med svängig musik." />
+    <meta property="og:url" content="http://www.onetwothreefour.se" />
+    <meta property="og:site_name" content="One Two Three Four" />
+    <meta property="og:image" content="http://www.onetwothreefour.se/images/touch/ms-touch-icon-144x144-precomposed.png" />
 
-    
-    
+    <!-- Page styles -->
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css">
@@ -34,6 +39,19 @@
 
 </head>
 <body class="app-auth">
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/sv_SE/sdk.js#xfbml=1&version=v2.0";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
     <header class="app-bar promote-layer">
         <img src="/images/back.jpg" style="position:absolute;" />
         <div class="app-bar-container">
@@ -46,8 +64,10 @@
                 <button>
                     <a href="http://www.facebook.com/onetwothreefourband">
                         <img src="/images/fb_icon_325x325.png" />
-                    </a>   
+                    </a>
+
                 </button>
+                <div class="fb-like" data-href="https://www.facebook.com/onetwothreefourband" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
             </section>
         </div>
     </header>
@@ -57,13 +77,15 @@
             <li><a href="/" ng-class="{active : activetab === '/' }">Om oss</a></li>
             <li><a href="/seochlyssna" ng-class="{active : activetab === '/seochlyssna' }">Se & lyssna</a></li>
             <li><a href="/kontakt" ng-class="{active : activetab === '/kontakt' }">Kontakt</a></li>
+
         </ul>
     </nav>
     <main>
         <div ng-view></div>
     </main>
-    <footer style="display:block; height: 120px;">
-        
+    <footer style="display:block; height: 120px; background-color:#F5F5F5;">
+        <!--<i style="font-size:11px;">E-mail: <a href="mailto:kontakt@onetwothreefour.se">kontakt@onetwothreefour.se</a></i>-->
+
     </footer>
     <!-- build:js scripts/scripts.js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
@@ -73,18 +95,18 @@
     <script type='application/javascript' src='/bower_components/angular-route/angular-route.js'></script>
     <script src="bower_components/angular-cookies/angular-cookies.js"></script>
     <script type='application/javascript' src='/bower_components/fastclick/lib/fastclick.js'></script>
-    
+
     <script src="bower_components/angular-http-auth/src/http-auth-interceptor.js"></script>
 
     <script src="bower_components/angular-loading-bar/build/loading-bar.js"></script>
 
     <!------START------************AUTHENTICATIONMODULE************------START------>
     <!--<script src="app/authentication/config.js"></script>
-    <script src="app/authentication/services/authService.js"></script>
-    <script src="app/authentication/directives/authentication.js"></script>
-    <script src="app/authentication/directives/autofillerchecker.js"></script>
-    <script src="app/authentication/directives/pwCheck.js"></script>
-    <script src="app/authentication/controllers/loginController.js"></script>-->
+        <script src="app/authentication/services/authService.js"></script>
+        <script src="app/authentication/directives/authentication.js"></script>
+        <script src="app/authentication/directives/autofillerchecker.js"></script>
+        <script src="app/authentication/directives/pwCheck.js"></script>
+        <script src="app/authentication/controllers/loginController.js"></script>-->
 
     <script src="app/app.js"></script>
     <script src="app/start/controllers/startctrl.js"></script>
@@ -98,7 +120,7 @@
             i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
                 (i[r].q = i[r].q || []).push(arguments)
             }, i[r].l = 1 * new Date(); a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
         })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
         ga('create', 'UA-47908631-3', 'auto');
@@ -109,5 +131,7 @@
         }, false);
     </script>
     <!-- Built with love using Web Starter Kit -->
+
+
 </body>
 </html>

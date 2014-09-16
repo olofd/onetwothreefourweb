@@ -4,8 +4,7 @@ angular.module('app', [
     //'app.authentication',
     'angular-loading-bar'
 ]).config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
-    $locationProvider.html5Mode(true);
-    $locationProvider.hashPrefix('!');
+
     $routeProvider.when('/', {
         templateUrl: 'app/start/views/start.html',
         controller: 'startctrl'
@@ -19,7 +18,11 @@ angular.module('app', [
         redirectTo: '/'
     });
 
+    $locationProvider.html5Mode(true);
+    $locationProvider.hashPrefix('!');
+
 }]).run(['$location', '$rootScope', function ($location, $rootScope) {
+
     var path = function () {
         return $location.path();
     };
